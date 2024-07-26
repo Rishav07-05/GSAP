@@ -1,4 +1,4 @@
-# GSAP Repository
+# GSAP Repository ☄️
 Welcome to my GSAP Learning Repository! This repository is dedicated to my journey of learning and mastering the GreenSock Animation Platform (GSAP), a powerful tool for creating animations on the web.
 
 # Overview
