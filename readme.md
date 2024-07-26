@@ -7,6 +7,4 @@ GSAP, or GreenSock Animation Platform, is a JavaScript library that makes it eas
 In this repository, I will be exploring various features and functionalities of GSAP, creating animations, and sharing my learning process.
 
 # Learning Resources
-GSAP Documentation
-YouTube Channel Tutorials
-GSAP Forum
+GSAP Documentation | YouTube Channel Tutorials | GSAP Forum
