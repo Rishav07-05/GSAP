@@ -1,0 +1,139 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    color: rgb(179, 188, 245)
+}
+
+body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://imgs.search.brave.com/eUqy9cIHu6eVDSVku92piBAUj4_JmCwpkiczVBxHRao/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvaXBo/b25lLWVhcnRoLTNv/cHk2cGdlZ3RkMDN5/Z2suanBn);
+    background-size: cover;
+    background-position: center;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    color: rgb(67, 80, 169);
+}
+
+#nav h2{
+    font-size: 30px;
+}
+
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.315);
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 150px 70px;
+}
+
+#full h4{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    border-radius: 50%;
+    background-color: white;
+    padding: 4px;
+    font-weight: 900;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#cursor{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    position: fixed;
+    z-index: 10;
+}
+
+
+#signup{
+    height: 500px;
+    width: 300px;
+    background-color: rgba(32, 27, 27, 0.237);
+    /* position: absolute; */
+    backdrop-filter: blur(5px);
+    border-radius: 35px;
+    border: .2px solid lightblue;
+    }
+    
+#wrapper{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* position: relative; */
+}
+
+
+#signup input{
+    border-radius: 30px;
+    border-color:lightblue;
+    width: 90%;
+    text-align: center;
+    background-color: transparent;
+    padding: 10px;
+    margin: 13px ;
+}
+
+h1{
+    text-align:center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: rgb(179, 188, 245);
+    font-weight: 200;
+}
+
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.sign button , .login button{
+    padding: 8px;
+    background-color: transparent;
+    border-radius: 30px;
+    text-align: center;
+    color: lightseagreen;
+    border-color: lightblue;
+    font-weight: 600;
+}
+
